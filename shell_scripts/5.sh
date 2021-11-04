@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "script to check biggest of two numbers"
+#script to check biggest of two numbers using read
+
 echo "enter first number"
 read n1
 echo "enter second number"

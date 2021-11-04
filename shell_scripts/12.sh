@@ -1,4 +1,6 @@
 #!/bin/bash
+#script to display names & age of people between age 25 to 40 from a file
+
 while read line
 do
 	age=`echo "$line" | awk -F " " '{print $3}'`

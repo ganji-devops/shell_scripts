@@ -1,4 +1,7 @@
 #!/bin/bash
+#script to check whether given name is a file, directory or link
+#read option used
+
 echo "enter name to check"
 read name
 if [ -f $name ] ; then

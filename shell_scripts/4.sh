@@ -1,5 +1,7 @@
 #!/bin/bash
-echo "script to check whether the number is five or not"
+#script to check whether the number is five or not
+#using read command 
+
 echo "enter the number"
 read num
 if [ $num -eq 5 ] ; then

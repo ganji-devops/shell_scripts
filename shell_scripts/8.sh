@@ -1,5 +1,8 @@
 #!/bin/bash
-n=$1
+#script to display count from 1 upto the number given as argument
+#while loop demo script
+
+n=$1			
 while [ $n -gt 0 ]
 do
         echo "$n"
