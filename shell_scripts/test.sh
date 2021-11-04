@@ -1,6 +1,6 @@
 echo -n "Enter file name : "
 read file
- 
+# git _test 
 # find out if file has write permission or not
 [ -w $file ] && W="Write = yes" || W="Write = No"
  
