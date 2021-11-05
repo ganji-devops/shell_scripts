@@ -6,7 +6,7 @@ read file
 # comment
 # find out if file has excute permission or not
 [ -x $file ] && X="Execute = yes" || X="Execute = No"
- 
+# 
 # find out if file has read permission or not
 [ -r $file ] && R="Read = yes" || R="Read = No"
  
