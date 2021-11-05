@@ -3,7 +3,7 @@ read file
 # git _test 
 # find out if file has write permission or not
 [ -w $file ] && W="Write = yes" || W="Write = No"
- 
+#merge conflict 
 # find out if file has excute permission or not
 [ -x $file ] && X="Execute = yes" || X="Execute = No"
 # 
